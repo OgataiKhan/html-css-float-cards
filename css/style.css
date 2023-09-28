@@ -9,3 +9,49 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+********
+Typography
+********
+*/
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* 
+********
+Common
+********
+*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 1000px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* 
+********
+Header
+********
+*/
+
+h1 {
+    font-size: 40px;
+    color: #e53170;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+header p {
+    font-size: 19px;
+}
